@@ -4,6 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Education</title>
+    <style>
+        table{
+            background-color: #37a037;
+            color: white;
+            border-color: black;
+            border-collapse: collapse;
+        }
+        .name{
+            background-color: white;
+            color: #37a037;
+        }
+    </style>
 </head>
 <body>
     <h1>EDUCATION</h1>
@@ -12,7 +24,7 @@
             MARKLIST
         </th>
         <tr>
-            <th rowspan="2">B.TECH</th>
+            <th class="name" rowspan="2">B.TECH</th>
             <td>1st sem</td>
             <td>2nd sem</td>
             <td>3rd sem</td>
@@ -33,7 +45,7 @@
             <td>60%</td>
         </tr>
         <tr>
-            <th rowspan="2">PLUS TWO</th>
+            <th class="name" rowspan="2">PLUS TWO</th>
             <td colspan="4" align="center">1st year</td>
             <td colspan="4" align="center">2nd year</td>
         </tr>
@@ -41,6 +53,10 @@
             <td colspan="4" align="center">70%</td>
             <td colspan="4" align="center">70%</td>
         </tr>
-    </table>
+    </table><br><br>
+    <form action="">
+        <label for="username">name</label>
+        <input type="week" name="username" id="username">
+    </form>
 </body>
 </html>
